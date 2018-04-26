@@ -687,10 +687,8 @@ public class MainActivity extends AppCompatActivity implements LocationSource,AM
                 String result=msg.obj.toString();
 
                 extraJson(result,poetries);
-
 if(poetries.size()>0){
                 final TS_Thread_NoWait ts = new TS_Thread_NoWait(aMap, poetries, width, height, MainActivity.this,hander);
-
                 //        PortTimerShaft.this.runOnUiThread(ts);
                 Thread thread = new Thread(ts);
                 thread.start();
@@ -699,9 +697,7 @@ if(poetries.size()>0){
         String sql="select * from "+ CONSTANTS_SF.TABLE_POETRIES_L.TABLE_NAME ;
         Server server=new Server(serMsgHander, CONSTANTS_SF.URL_ROOT+"poetriesList");
         server.post(sql);
-
     }
-
     public static void extraJson(String result,List<Poetry> poetries){
 //        List<Poetry> poetries=new ArrayList<>();
         try {
