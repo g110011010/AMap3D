@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.balysv.materialmenu:material-menu-toolbar-1.5.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.1.aar/765afda4e4b72e67078b0826cdf31bd0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/material-menu-toolbar-1.5.1.aar/765afda4e4b72e67078b0826cdf31bd0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.balysv.materialmenu/material-menu-toolbar/1.5.1/61f029d2fab77d581929dab750edfc7142772558/material-menu-toolbar-1.5.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
