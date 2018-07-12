@@ -33,7 +33,8 @@ import org.json.JSONObject;
 import org.json.JSONTokener;
 
 import java.sql.Connection;
-import java.util.ArrayList;
+
+import yellow5a5.materialdesignlogin.SigninActivity;
 
 import static com.example.sf.CONSTANTS_SF.URL_ROOT;
 
@@ -55,6 +56,7 @@ public class LoginActivity extends AppCompatActivity {
     private boolean isvalid;
     private Dialog dialog;
     private MyApp app;
+    private Button signin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

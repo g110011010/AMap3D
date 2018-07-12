@@ -1,4 +1,4 @@
-package com.example.LJJ.Login;
+package yellow5a5.materialdesignlogin;
 
 /**
  * Created by Isuk on 2018/3/12.
@@ -19,7 +19,7 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 
-import com.example.LJJ.MyUser.User;
+import com.example.LJJ.Login.LoginActivity;
 import com.example.LJJ.UI.LoadingFrame;
 import com.example.sf.CONSTANTS_SF;
 import com.example.sf.Server.Server;
@@ -27,8 +27,6 @@ import com.example.sf.amap3d.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-
-import java.util.logging.Handler;
 
 
 public class SigninActivity extends AppCompatActivity {

@@ -47,7 +47,7 @@
         <activity android:name="com.example.sf.TimeShaft.ComparedTimeShaft.PoetChoiceClone" />
         <activity android:name="com.example.sf.TimeShaft.ComparedTimeShaft.PortComapredTimerShaft" />
         <activity android:name="com.example.sf.PoetryInfo.PoetryList" />
-        <activity android:name="com.example.LJJ.Login.LoginActivity">
+        <activity android:name="yellow5a5.materialdesignlogin.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -61,7 +61,7 @@
 
         <service android:name="com.amap.api.location.APSService"/>
 
-        <activity android:name="com.example.LJJ.Login.SigninActivity">
+        <activity android:name="yellow5a5.materialdesignlogin.SigninActivity">
 
         </activity>
         <activity android:name="com.example.LJJ.MyUser.PersonCenter" />
